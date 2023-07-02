@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Esta es la propiedad "title"',
+    Svg: require('@site/static/img/Logo_VAMVAM_SVG.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Esto es una propiedad "description". Solamente puede haber una dentro del objeto.
+        Si escribes otra debajo, sobre escribira esta, desapareciendo.
       </>
     ),
   },
@@ -18,9 +18,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+        La prropiedad "code" se utiliza para <code>esto</code>.
+        Tambien existe la propiedad "Svg", que es un <code>scalable vector graphics</code>,
+        el cual se usa para poner imagenes, como la de arriba.
+      </> 
     ),
   },
   {
